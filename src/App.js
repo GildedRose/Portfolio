@@ -8,7 +8,6 @@ import { Resume } from './Resume';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layouts';
 import { NavigationBar } from './components/NavBar';
-import { Jumbotron } from './components/Jumbotron';
 import { Footer } from './components/Footer';
 
 class App extends Component{
@@ -16,7 +15,6 @@ class App extends Component{
     return (
       <React.Fragment>
         <NavigationBar />
-        <Jumbotron />
         <Layout>
           <Router>
             <Switch>
