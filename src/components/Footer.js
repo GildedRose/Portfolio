@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 export const Footer = () => (
 <Container>
-  <Row>
+  <Row className="fixed-bottom">
     <Col> © Antje Plummer 2020</Col>
   </Row>
 </Container>

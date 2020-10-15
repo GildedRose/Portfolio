@@ -3,6 +3,6 @@ import { Container } from 'react-bootstrap';
 
 export const Layout = (props) => (
     <Container>
-        {props.children}
+            {props.children}
     </Container>
 )

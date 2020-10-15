@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from './utils/helpers';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col  } from 'react-bootstrap';
 
 export const Contact = () => {
   const [formState, setFormState] = useState({
@@ -42,6 +42,8 @@ export const Contact = () => {
 
   return (
     <Container>
+      <Row className="justify-content-md-center">
+        <Col md="auto">
       <form className= "contact" id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -77,6 +79,8 @@ export const Contact = () => {
         )}
         <button type="submit">Submit</button>
       </form>
+      </Col>
+      </Row>
     </Container>
   );
 }

@@ -9,10 +9,49 @@ import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layouts';
 import { NavigationBar } from './components/NavBar';
 import { Footer } from './components/Footer';
+import styled from 'styled-components';
+
+const Styles = styled.div`
+
+  .welcome {
+    width: 100%;
+    height:100%;
+    boder: 3px solid #ccc;
+    padding: 50px;
+    margin: 0;
+  }
+  .css-selector {
+    background: linear-gradient(311deg, #26d6a9, #55c3d2, #476296, #479096);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 59s ease infinite;
+    -moz-animation: AnimationName 59s ease infinite;
+    animation: AnimationName 59s ease infinite;
+  }
+
+  @-webkit-keyframes AnimationName {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+
+`;
 
 class App extends Component{
   render() {
     return (
+      <Styles>
+      <div className="css-selector body">
       <React.Fragment>
         <NavigationBar />
         <Layout>
@@ -29,6 +68,8 @@ class App extends Component{
         </Layout>
         <Footer />
       </React.Fragment>
+      </div>
+      </Styles>
     )
   }
 }

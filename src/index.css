@@ -1,4 +1,5 @@
-body {
+body, html {
+  height: 100%;
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -66,6 +67,38 @@ textarea {
   border: 3px solid #cccccc;
   padding: 5px;
   margin-top: 10px;
+}
+
+.homeback {
+  .css-selector {
+    background: linear-gradient(311deg, #26d6a9, #55c3d2, #476296, #479096);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 59s ease infinite;
+    -moz-animation: AnimationName 59s ease infinite;
+    animation: AnimationName 59s ease infinite;
+  }
+
+  @-webkit-keyframes AnimationName {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}}
+
+.text {
+  background-color: #00000075;
+  padding: 50px;
+  background-size: cover;
 }
 
 .contact {
