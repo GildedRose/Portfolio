@@ -17,7 +17,6 @@ class App extends Component{
     return (
       <React.Fragment>
         <NavigationBar />
-
           <Router>
             <Switch>
               <Route exact path="/" component={Home} />

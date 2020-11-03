@@ -4,6 +4,7 @@ import {Resume} from '../src/Resume';
 import {Contact} from '../src/Contact';
 import './Home.css';
 import { Portfolio } from './Portfolio';
+import { Container } from 'react-bootstrap';
 
 
 export const Home = () => (
