@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.978c6d6d.chunk.css",
+    "main.js": "/portfolio/static/js/main.affd5ac8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.affd5ac8.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.1c1b9898.chunk.js": "/portfolio/static/js/2.1c1b9898.chunk.js",
+    "static/js/2.1c1b9898.chunk.js.map": "/portfolio/static/js/2.1c1b9898.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.9653eead89959cb35eaa1f35fa8c9d5b.js": "/portfolio/precache-manifest.9653eead89959cb35eaa1f35fa8c9d5b.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.978c6d6d.chunk.css.map": "/portfolio/static/css/main.978c6d6d.chunk.css.map",
+    "static/js/2.1c1b9898.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1c1b9898.chunk.js.LICENSE.txt",
+    "static/media/AKP.png": "/portfolio/static/media/AKP.1b74be39.png",
+    "static/media/AnnePlummerCover.png": "/portfolio/static/media/AnnePlummerCover.9711fe1a.png",
+    "static/media/AnnePlummerResume.png": "/portfolio/static/media/AnnePlummerResume.0a9e7c81.png",
+    "static/media/Horiseon.jpg": "/portfolio/static/media/Horiseon.248666c7.jpg",
+    "static/media/Josie.png": "/portfolio/static/media/Josie.9096fabb.png",
+    "static/media/LinkedIn.png": "/portfolio/static/media/LinkedIn.9fec94fa.png",
+    "static/media/Marg.jpg": "/portfolio/static/media/Marg.80283a88.jpg",
+    "static/media/RedCatProject.JPG": "/portfolio/static/media/RedCatProject.50473417.JPG",
+    "static/media/RunBuddy.jpg": "/portfolio/static/media/RunBuddy.99d874dd.jpg",
+    "static/media/Soother.png": "/portfolio/static/media/Soother.f8cd1897.png",
+    "static/media/WorkDay.png": "/portfolio/static/media/WorkDay.ad748602.png",
+    "static/media/email.png": "/portfolio/static/media/email.3a453a25.png",
+    "static/media/hero-bg.jpg": "/portfolio/static/media/hero-bg.1ec2e2b1.jpg",
+    "static/media/illbehonest.gif": "/portfolio/static/media/illbehonest.870693cd.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.1c1b9898.chunk.js",
+    "static/css/main.978c6d6d.chunk.css",
+    "static/js/main.affd5ac8.chunk.js"
+  ]
+}
