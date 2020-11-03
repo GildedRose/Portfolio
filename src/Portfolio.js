@@ -14,16 +14,18 @@ export const Portfolio = () => (
         <div className="port-row">
         <Col>
         <div className="port-column">
+          <a href="https://mysterious-island-01047.herokuapp.com/"><img src={require("./assets/images/RedCatProject.JPG")} alt="Website The Red Cat and Co." /> </a>
           <a href="https://gildedrose.github.io/HoriSEOn/"><img src={require("./assets/images/Horiseon.jpg")} alt="Website for Horiseon." /> </a>
           <img src={require("./assets/images/hero-bg.jpg")} alt="Close up of a pink peony" />
           <a href="https://devmadia.github.io/soother/"><img src={require("./assets/images/Soother.png")} alt="Soothing News Reader" /></a>
-          <a href="https://gildedrose.github.io/GetStuffDone/"><img src={require("./assets/images/WorkDay.png")} alt="Day Scheduling Website" /></a>
+         
         </div>
         </Col>
         <Col>
         <div className="port-column">
           <a href="https://illbehonest.herokuapp.com/"><img src={require("./assets/images/illbehonest.gif")} alt="I'll Be Honest Social Media App" /></a>
           <a href="https://gildedrose.github.io/run-buddy/"><img src={require("./assets/images/RunBuddy.jpg")} alt="Run Buddy website" /></a>
+          <a href="https://gildedrose.github.io/GetStuffDone/"><img src={require("./assets/images/WorkDay.png")} alt="Day Scheduling Website" /></a>
           <img src={require("./assets/images/Marg.jpg")} alt="Margarita in tall glass at night with colorful lights." />
           
         </div>
