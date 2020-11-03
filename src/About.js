@@ -1,18 +1,30 @@
 import React from 'react';
 import './Home.css';
+import { Container, Row, Col } from 'react-bootstrap';
 
 
 
 
 export const About = () => (
+
   <section id="about" class="about">
-    <div class="container" data-aos="fade-up">
       <div class="section-title">
-        <h3>About</h3>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div>
-  </div>
+        <h1>About</h1>
+        </div>
+          <Row>
+          <Col>
+            <img src={require("./assets/images/Josie.png")}  class="img-fluid reactive" alt="" />
+            </Col>
+            <Col>
+            <p>
+              Hi y'all! I'm Anne, a lifestyle and documentary photographer turned full stack web developer.
+              When I'm not working, I'm devoted to cat and kitten rescue in San Antonio, Texas. My own cats love
+              to sit and watch me code. Josie, pictured, not only loves watch me code for hours, she's also pretty good at catching those pesky bugs.
+            </p>
+      </Col>
+</Row>
   </section>
+
   
 
 )
