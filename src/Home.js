@@ -1,19 +1,34 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap';
-//import cactus from './assets/cactus.jpg';
+import React from 'react';
+import {About} from '../src/About';
+import {Resume} from '../src/Resume';
+import {Contact} from '../src/Contact';
+import './Home.css';
+import { Portfolio } from './Portfolio';
 
 
 export const Home = () => (
-  <Container className="body">
-    <Row>
-      <Col>
-      <div className="welcome" >
-          <h2>Home</h2>
-          <p>Cat ipsum dolor sit amet, chew foot get suspicious of own shadow then go play with toilette paper. Climb a tree, wait for a fireman jump to fireman then scratch his face. Roll over and sun my belly. I vomit in the bed in the middle of the night lick left leg for ninety minutes, still dirty what the heck just happened, something feels fishy so eat from dog's food.</p>  
+  <body class="text-center">
+    <div class="cover  w-100% h-100 p-3 mx-auto flex-column">
+      <div>
+    <header role="main">
+    <img 
+    src={require("./assets/images/AnnePlummerCover.png")} 
+    class="responsive" />
+  </header>
+  <main>
+    <About>
+    </About>
+    <Portfolio>
+    </Portfolio>
+    <Resume>
+    </Resume>
+    <Contact>
+    </Contact>
+  </main>
         </div>
-      </Col>
-    </Row>
-  </Container>
+        </div>
+</body>
+
 )
 
 

@@ -1,4 +1,7 @@
+
+
 .App {
+  background-color: #262626;
   text-align: center;
 }
 
@@ -6,6 +9,8 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+
 
 .body {
   height: 100%;
@@ -41,3 +46,4 @@
     transform: rotate(360deg);
   }
 }
+

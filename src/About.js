@@ -1,12 +1,18 @@
-import React from 'react'
+import React from 'react';
+import './Home.css';
+
 
 
 
 export const About = () => (
-        <div>
-          <h2>Hi y'all!</h2>
-          <p>Anne has been a freelance documentary photographer for nearly a decade. She enjoys a challenge and expanding her skill sets and experiences.
-            As of November 2020, she will have completed University of Texas - Austin's Full Stack Development Bootcamp. 
-          </p>  
-        </div>
+  <section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h3>About</h3>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+  </div>
+  </section>
+  
+
 )

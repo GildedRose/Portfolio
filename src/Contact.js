@@ -42,7 +42,7 @@ export const Contact = () => {
 
   return (
     <Container>
-      <Row className="justify-content-md-center">
+      <Row className="justify-content-md-center" id="contact" >
         <Col md="auto">
       <form className= "contact" id="contact-form" onSubmit={handleSubmit}>
         <div>
